@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation Bar*/
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 68px;
+    width: 90px;
+    padding-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 0px 2px;
+    width:350px;
+}
+
+.navbar-nav li{
+    height:60px;
+    padding-left: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: #006400;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: #0a0a0a;
+}
+    
+.navbar{
+    background: #ffffff;
+} 
+    
+.navbar-toggler{
+    border: none!important;
+}
+    
+.nav-link{
+    color: #006400!important;
+    font-weight: 600;
+    font-size: 18.5px;
+}
+
+.dropdown-menu:hover{
+  color: #006420;
+}
+
+
+/*Coming Soon*/
+.coming-soon-txt{
+    padding-bottom: 1000px;
+    margin-top: 100px;
+    font-size: larger;
+    text-align: center;
+}

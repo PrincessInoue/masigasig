@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*----Navigation Bar----*/
+#nav-bar{
+position:sticky;
+margin-top: 100px;
+bottom: 10;
+z-index: 10;
+}
+
+.navbar-brand img{
+    height: 68px;
+    width:90px;
+    padding-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 0px 2px;
+    width:350px;
+}
+
+.navbar-nav li{
+height: 60px;
+padding-left: 30px;
+text-align: center;
+margin-top: 30px;
+color:#006400;
+}
+
+.navbar-nav li a{
+float:right;
+text-align: left;
+}
+
+#nav-bar ul li a:hover{
+color: #006400;
+}
+
+.navbar{
+background: #ffffff;
+}
+
+.navbar-toggler{
+border: none!important;
+}
+
+.nav-link{
+color: #006400!important;
+font-weight: 600;
+font-size: 18.5px;
+}
+
+
+/*******Description********/
+.about-us-image{
+    background-image: url("slider/1.jpg");
+    height:60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.title h3{
+text-align: center;
+margin-top: 20px;
+color: #006400!important;
+font-weight: bold;
+}
+
+.mdli-quotes h6{
+font-size: 16px;
+margin-top:8px;
+color: #090909;
+text-align: center;
+}
+
+
+/*******Business Profile********/
+.title-business-profile{
+font-size:8px ;
+color:#006400;
+font-size: 28px;
+left: 20px;
+margin-top: 20px;
+text-align:justify;
+justify-content: left baseline;
+}
+
+.business-profile-descrp p {
+    font-size:10px ;
+    color:#090909;
+    font-size: 16px;
+    text-align:justify;
+    justify-content: left baseline;
+    left: 20px;
+    margin-top: 10px;
+}
+
+
+/*******Our Background********/
+.title-our-background{
+font-size:8px ;
+color:#006400;
+font-size: 28px;
+text-align:justify;
+justify-content: left baseline;
+left: 20px;
+margin-top: 20px;
+}
+
+.our-background-descrp p {
+    font-size:10px ;
+    color:#090909;
+    font-size: 16px;
+    text-align:justify;
+    justify-content: left baseline;
+    left: 20px;
+    margin-top: 10px;
+}
+
+
+/*******Our Team********/
+.title-our-team{
+font-size:8px ;
+color:#006400;
+font-size: 28px;
+text-align:justify;
+justify-content: left baseline;
+left: 20px;
+margin-top: 20px;
+}
+
+.our-team-descrp p {
+    font-size:10px ;
+    color:#090909;
+    font-size: 16px;
+    text-align:justify;
+    justify-content: left baseline;
+    left: 20px;
+    margin-top: 10px;
+}
+
+
+/****MVV*****/
+.mission-pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+    width:30%;
+    height: 30%;
+    float: left;
+}
+
+.mission-pic img:hover{
+    transform: scale(1.2);
+    z-index:2;
+}
+
+.vision-pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+    width:30%;
+    height: 30%;
+    float: left;
+    margin: 0px 14px;
+}
+
+.vision-pic img:hover{
+    transform: scale(1.2);
+    z-index:2;
+}
+
+.values-pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+    width:30%;
+    height: 28%;
+    margin: 0px 14px;
+}
+
+.values-pic img:hover{
+    transform: scale(1.2);
+    z-index:2;
+}
+
+
+/*******Our Goal********/
+.title-our-goal{
+font-size:8px ;
+color:#006400;
+font-size: 28px;
+text-align:justify;
+justify-content: left baseline;
+left: 20px;
+margin-top: 20px;
+}
+
+.our-goal-descrp p {
+    font-size:10px ;
+    color:#090909;
+    font-size: 16px;
+    text-align:justify;
+    justify-content: left baseline;
+    left: 20px;
+    margin-top: 10px;
+}
+/*---Videos---*/
+.iframe{
+transform: translate(-50%, 0);
+position: absolute;
+left: 50%;
+margin-top: -70px;
+align-items: center;
+}
+
+
+/*---Our Board---*/
+#our-boards h1{
+    padding-top: 8px;
+    text-align: center;
+    margin-top: 20px;
+    color: #006400!important;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+#our-boards{
+    background-color:#fff ;
+}
+
+.col-md-4 h2{
+    font-size:21px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #006400;
+}
+
+.col-md-4 h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #0a0a0a;
+}
+
+.col-md-4 img{
+    width: 90%;
+    padding: 20px;
+    margin: 28px auto;
+    display: flex;
+    justify-content:center;
+  
+}
+
+
